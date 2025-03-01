@@ -61,6 +61,7 @@ class RAGMultiModalModel:
             index_root=index_root,
             device=device,
             verbose=verbose,
+            attn_implementation="flash_attention_2",
         )
         return instance
 

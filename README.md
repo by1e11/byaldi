@@ -1,3 +1,11 @@
+# Fork Information
+This is a fork of the original repository. This fork extends the colpali to latest ColQwen2.5-v0.2 model and adds quick start script.
+Note to make ColQwen2.5-v0.2 model work, you may need to manually download the master branch of the colpali-engine repository and install with `pip install -e .` 
+
+In addition, using 2x4090 GPUs needs the `flash-attn` to be installed, otherwise, CUDA out of memory error will occur.
+
+Following are the original README contents:
+---
 # Welcome to Byaldi
 _Did you know? In the movie RAGatouille, the dish Remy makes is not actually a ratatouille, but a refined version of the dish called "Confit Byaldi"._
 
