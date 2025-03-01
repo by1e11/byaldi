@@ -2,7 +2,7 @@
 This is a fork of the original repository. This fork extends the colpali to latest ColQwen2.5-v0.2 model and adds quick start script.
 Note to make ColQwen2.5-v0.2 model work, you may need to manually download the master branch of the colpali-engine repository and install with `pip install -e .` 
 
-In addition, using 2x4090 GPUs needs the `flash-attn` to be installed, otherwise, CUDA out of memory error will occur.
+In addition, using 4090 GPU needs the `flash-attn` to be installed, otherwise, CUDA out of memory error will occur.
 
 TODOs:
 -[x] Add quick start script
