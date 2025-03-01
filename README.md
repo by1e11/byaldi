@@ -4,6 +4,12 @@ Note to make ColQwen2.5-v0.2 model work, you may need to manually download the m
 
 In addition, using 2x4090 GPUs needs the `flash-attn` to be installed, otherwise, CUDA out of memory error will occur.
 
+TODOs:
+-[x] Add quick start script
+-[x] Update ColQwen2.5-v0.2 model
+-[x] Add support for full RAG pipeline (retrieval + generation)
+-[ ] More advanced indexing and retrieving methods
+
 Following are the original README contents:
 ---
 # Welcome to Byaldi
